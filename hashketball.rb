@@ -1,7 +1,8 @@
 require 'pry'
 game_hash {
 :home {
-  team_name: "Brooklyn Nets",
+ binding.pry
+ team_name: "Brooklyn Nets",
   colors: "Black", "White",
   players: [
     {player_name: "Alan Anderson",
@@ -110,7 +111,6 @@ game_hash {
     blocks: 5,
     slam_dunks: 12
     }
-    binding.pry
     ]
 }
 }
