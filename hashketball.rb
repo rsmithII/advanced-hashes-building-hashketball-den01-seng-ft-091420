@@ -1,3 +1,4 @@
+require 'pry'
 game_hash {
 :home => {
   team_name: "Brooklyn Nets",
@@ -109,5 +110,6 @@ game_hash {
     blocks: 5,
     slam_dunks: 12
     }
+    binding.pry
     ]
 }
