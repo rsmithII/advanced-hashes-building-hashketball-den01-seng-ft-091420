@@ -1,6 +1,6 @@
 require 'pry'
 game_hash {
-:home => {
+home: {
   team_name: "Brooklyn Nets",
   colors: "Black", "White",
   players: [
@@ -56,7 +56,7 @@ game_hash {
     }
     ]
 },
-:away => {
+home: {
   team_name: "Charlotte Hornets",
   colors: "Turquoise", "Purple",
   players:[
